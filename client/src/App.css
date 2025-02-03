@@ -1,0 +1,35 @@
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #f0f0f0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around; /* Or space-between */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+}
+
+.artwork-card {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block; /* Or flex if you want more control */
+  width: 200px; /* Adjust as needed */
+  text-align: center;
+}
+
+.artwork-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Add more styles as needed */
